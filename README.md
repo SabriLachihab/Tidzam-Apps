@@ -14,3 +14,10 @@ https://drive.google.com/file/d/1_WGZL-Dyd3ra9_GGXexhohNcvAXpny0k/view?usp=shari
 # IOS App
 
 Comming soon ( Towards the end of April ) 
+
+Project Team : 
+
+COSSON Georges
+DEMON-CHAINE Antoine
+KAFIA Youness
+LACHIHAB Sabri
