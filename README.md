@@ -13,7 +13,7 @@ A newer version in Native Reagent can see the day on this repo
 
 Project Team : 
 
-COSSON Georges
-DEMON-CHAINE Antoine
-KAFIA Youness
+COSSON Georges / 
+DEMON-CHAINE Antoine / 
+KAFIA Youness / 
 LACHIHAB Sabri
