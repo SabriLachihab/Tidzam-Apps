@@ -8,6 +8,8 @@ It aims to provide greater visibility on the ecological project that is Tidmarsh
 You can download the latest versions of the application for free by clicking on the links below
 
 Time development ( Nov 2017 - Mar 2018 )
+Android Version - Java Android Project
+IOS Version - Swift Project
 
 A newer version in Native Reagent can see the day on this repo
 
