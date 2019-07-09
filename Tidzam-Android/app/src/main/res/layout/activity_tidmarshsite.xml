@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/sitetidmarsh"
+            style="@android:style/Widget.Holo.Light.Spinner"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text=""
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/categorymesure"
+            style="@android:style/Widget.Holo.Light.Spinner"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="55dp"
+            android:gravity="center"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/tidmarshsiteperiod"
+            style="@android:style/Widget.Holo.Light.Spinner"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="110dp" />
+
+        <TextView
+            android:id="@+id/tidmarshsitedate"
+            style="@android:style/Widget.Holo.Light.Spinner"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="125dp"
+            android:layout_marginTop="110dp" />
+
+        <fragment
+            android:id="@+id/maptidmarsh"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="195dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="150dp"></fragment>
+
+        <com.github.mikephil.charting.charts.LineChart
+            android:id="@+id/tidmarshsitelinechart"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginTop="350dp"></com.github.mikephil.charting.charts.LineChart>
+
+        <TextView
+            android:id="@+id/tidmarshsiteday"
+            style="@android:style/Widget.Holo.Light.Spinner"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="350dp"
+            android:visibility="gone" />
+    </RelativeLayout>
+</ScrollView>

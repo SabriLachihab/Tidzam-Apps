@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/linechart"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="100dp"></com.github.mikephil.charting.charts.LineChart>
+
+
+    <TextView
+        android:id="@+id/textprediction"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginRight="80dp"></TextView>
+
+    <ImageView
+        android:id="@+id/imageprediction"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignBottom="@+id/textprediction"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:src="@mipmap/ic_medialab" />
+
+
+</RelativeLayout>

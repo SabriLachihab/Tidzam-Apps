@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/imageViewspecies"
+        android:layout_marginTop="24dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="206dp">
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="10dp"
+            android:text="description"
+             />
+    </ScrollView>
+
+    <com.github.mikephil.charting.charts.BarChart
+        android:id="@+id/barmonth"
+        android:layout_width="180dp"
+        android:layout_height="100dp"
+        android:layout_alignStart="@+id/namespecies"
+        android:layout_below="@+id/namespecies"
+        android:layout_marginTop="15dp"></com.github.mikephil.charting.charts.BarChart>
+
+    <ImageView
+        android:id="@+id/imageViewspecies"
+        android:layout_width="178dp"
+        android:layout_height="129dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@drawable/common_full_open_on_phone"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <TextView
+        android:id="@+id/namespecies"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="19dp"
+        android:layout_toEndOf="@+id/imageViewspecies"
+        android:text="Name" />
+
+</RelativeLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:icon="@mipmap/ic_tidzamlogo"
+        android:title="Tidzam">
+        <menu>
+            <item
+                android:id="@+id/maptidzam"
+                android:icon="@drawable/ic_micro_maps"
+                android:title="Microphones Map" />
+            <item
+                android:id="@+id/tidzamstats"
+                android:icon="@drawable/statsicon"
+                android:title="Wildlife Stats" />
+            <item
+                android:id="@+id/databasetidzam"
+                android:icon="@drawable/piecharticon"
+                android:title="Database" />
+            <item
+                android:id="@+id/livedetectiontidzam"
+                android:icon="@drawable/livedetection"
+                android:title="Live Detection" />
+        </menu>
+    </item>
+
+    <item android:title="Tidmarsh">
+        <menu>
+            <item
+                android:id="@+id/tidmarshmapnav"
+                android:icon="@drawable/ic_action_name"
+                android:title="Sensors Map" />
+            <item
+                android:id="@+id/tidmarshcompare"
+                android:icon="@drawable/statsicon"
+                android:title="Environmental Stats" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/geolocalisation"
+        android:icon="@drawable/localisation"
+        android:title="Geolocalisation" />
+</menu>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:background="?android:attr/selectableItemBackground"
+    android:padding="5dp"
+    android:focusable="true">
+
+    <ImageView
+        android:id="@+id/iv_name"
+        android:src="@drawable/ic_micro"
+        android:layout_marginRight="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_centerVertical="true"
+        android:layout_width="50dp"
+        android:layout_height="50dp" />
+    
+    <TextView
+        android:id="@+id/tv_titre"
+        android:text="Species"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:paddingRight="50dp"
+        android:paddingEnd="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <ImageView
+        android:id="@+id/iv_play_active"
+        android:layout_width="82dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_titre"
+        android:src="@drawable/ic_play"
+        android:visibility="invisible" />
+</LinearLayout>

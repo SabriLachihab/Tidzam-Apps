@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tidzamapp.sabri.tidzam">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
+    <uses-permission android:name="android.permission.MICROPHONE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-sdk
+        android:minSdkVersion="8" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_tidzamlogoapp"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_tidzamlogoapp_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAyO_A1zHHJTAEWAQ4de031JVLaDCdJDcw"/>
+
+        <activity
+            android:name=".SplashScreen"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".MapActivity"
+            />
+
+        <activity android:name=".StatsDeviceSpecies"
+            android:label="Tidzam"/>
+
+        <activity android:name=".WikipediaActivity"
+            android:label="Tidzam Species Info"></activity>
+
+        <activity android:name=".StatBirdsSpecies"
+            android:label="Birds Stats"></activity>
+
+        <activity android:name=".WikipediaActivitySpeciesDevice"
+            android:label="Tidzam Species Info"></activity>
+        <activity android:name=".WikiSpecies"
+            android:label="Wiki Species"></activity>
+
+        <activity android:name=".StatsActivity"
+            android:label="Tidzam Stats"></activity>
+
+        <activity android:name=".TidmarshLikeShazam"
+            android:label="Shazam Tidmarsh"></activity>
+
+        <activity android:name=".ShazamInatifActivity"
+            android:label="Shazam Tidmarsh"></activity>
+
+        <activity
+            android:name=".SampleDatabaseActivity"
+            android:label="Sample Database"></activity>
+
+        <activity
+            android:name=".SampleDatabaseBirdsActivity"
+            android:label="Sample Database Birds"></activity>
+
+        <activity
+            android:name=".WikiSampleBirds"
+            android:label="Tidzam Species Info"></activity>
+
+        <activity
+            android:name=".StatsBirdsActivity"
+            android:label="Tidzam Stats Birds">
+
+        </activity>
+
+        <activity
+            android:name=".PredictionActivity"
+            android:label="Tidzam Prediction"></activity>
+
+        <activity
+            android:name=".WikiStatsActivity"
+            android:label="Tidzam Species Info"></activity>
+
+        <activity
+            android:name=".WikiBirdsStatActvity"
+            android:label="Tidzam Species Info"></activity>
+
+        <activity
+            android:name=".TidmarshDeviceActivity"
+            android:label="Tidmarsh device"></activity>
+
+        <activity
+            android:name=".TidmarshSite"
+            android:label="Tidmarsh Site"></activity>
+
+    </application>
+</manifest>

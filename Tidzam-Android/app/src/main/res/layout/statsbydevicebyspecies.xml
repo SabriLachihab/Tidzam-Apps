@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.github.mikephil.charting.charts.BarChart
+        android:id="@+id/graphgeneral"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="120dp"
+        android:layout_marginTop="200dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <fragment
+            android:id="@+id/mapdevice"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"></fragment>
+
+        <TextView
+            android:id="@+id/periodchosit"
+            style="@android:style/Widget.Holo.Light.Spinner"
+            android:layout_width="100dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="165dp"
+            android:clickable="true"
+            android:text=""
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/datechoisit"
+            style="@android:style/Widget.Holo.Light.Spinner"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="165dp"
+            android:clickable="true"
+            android:text=""
+            android:textSize="15sp" />
+
+
+    </RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerlegdevice"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginTop="390dp"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"></android.support.v7.widget.RecyclerView>
+
+
+</RelativeLayout>
