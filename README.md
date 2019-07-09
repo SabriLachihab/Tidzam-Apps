@@ -13,7 +13,7 @@ Android Version - Java Android Project.
 
 IOS Version - Swift Project.
 
-A newer version in Native Reagent can see the day on this repo
+A newer version in React Native can see the day on this repo
 
 Project Team : 
 
